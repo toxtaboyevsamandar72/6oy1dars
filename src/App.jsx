@@ -71,25 +71,25 @@ function App() {
             amet rcus nunc. Duis egestas ac ante sed tincidunt.
           </p>
           <div className="user_main">
-          <div className="link">
-            <div className="main_icon">
-              <img src={icons} alt="" />
-              <h4>Safety Guides</h4>
+            <div className="link">
+              <div className="main_icon">
+                <img src={icons} alt="" />
+                <h4>Safety Guides</h4>
+              </div>
+              <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit</p>
-          </div>
-          <div className="link">
-            <div className="main_icon">
-              <img src={icons} alt="" />
-              <h4>Passport Assistance</h4>
+            <div className="link">
+              <div className="main_icon">
+                <img src={icons} alt="" />
+                <h4>Passport Assistance</h4>
+              </div>
+              <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit</p>
           </div>
-          </div>
-        </div>
-        <button>
+          <button>
             Learn More <img src={icon} alt="" />
           </button>
+        </div>
       </div>
     </div>
   );

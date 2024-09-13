@@ -102,7 +102,7 @@ body {
 }
 
 .main {
-  background-image: url("./assets/images/Frame%208365.png"); /* Pathdagi bo'sh joylarni o'zgartiring */
+  background-image: url("./assets/images/Frame8365.png"); /* Pathdagi bo'sh joylarni o'zgartiring */
   background-size: cover;
   background-position: center;
   height: 780px;
@@ -111,6 +111,7 @@ body {
   position: relative;
   margin-bottom: 120px;
 }
+
 .main h2 {
   width: 980px;
   height: 180px;
@@ -118,47 +119,47 @@ body {
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
-  margin-left: 467px;
   position: absolute;
-  margin-top: 210px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 210px;
 }
+
 .main span {
   font-size: 80px;
   font-weight: 700;
   line-height: 90px;
   color: #83cd20;
 }
+
 .main p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   color: #ffffff;
   width: 520px;
-  height: 60px;
   position: absolute;
-  margin-left: 700px;
-  margin-top: 420px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 420px;
 }
 
 .main button {
   width: 159px;
   height: 60px;
-  top: 520.04px;
-  left: 880px;
-  padding: 20px 30px 20px 30px;
-  gap: 10px;
+  padding: 15px 22px;
   border-radius: 150px;
-  opacity: 0px;
-  display: flex;
-  align-items: center;
-  padding: 15px 22px 15px 30px;
   background-color: #83cd20;
   color: #ffffff;
   border: none;
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 520px;
   transition: all 0.7s;
   cursor: pointer;
 }
+
 .main button:hover {
   background-color: #63971f;
 }
@@ -166,86 +167,83 @@ body {
 .container_main {
   width: 1290px;
   height: 618px;
-  top: 1020px;
-  left: 315px;
-  gap: 0px;
-  opacity: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 315px;
-  margin-bottom: 120px;
+  margin: 120px auto;
   gap: 90px;
 }
+
 .main_h4 {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-bottom: 10px;
-}
-.main_h4 {
   font-size: 14px;
   font-weight: 600;
-  line-height: 14px;
-  letter-spacing: 1.399999976158142px;
+  letter-spacing: 1.4px;
   color: #034833;
 }
+
+.main_nav {
+  width: 600px;
+  height: 442px;
+}
+
 .main_nav h3 {
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
-  text-align: left;
   color: #16171a;
   margin-bottom: 20px;
+  width: 600px;
+  height: 120px;
 }
+
 .main_nav p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  text-align: left;
   color: #727272;
   margin-bottom: 20px;
+  width: 520px;
+  height: 60px;
 }
+
 .user_main {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
+
 .main_icon {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
 }
+
 .main_icon h4 {
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
-  text-align: left;
   color: #034833;
 }
+
 .main_icon p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  text-align: left;
   color: #727272;
 }
 
-.container_main button {
+.main_nav button {
   width: 159px;
   height: 60px;
-  top: 520.04px;
-  left: 880px;
-  padding: 20px 30px 20px 30px;
-  gap: 10px;
+  padding: 15px 22px;
   border-radius: 150px;
-  opacity: 0px;
-  display: flex;
-  align-items: center;
-  padding: 15px 22px 15px 30px;
   background-color: #83cd20;
   color: #ffffff;
   border: none;
@@ -253,6 +251,18 @@ body {
   cursor: pointer;
 }
 
-.container_main button:hover {
+.main_nav button:hover {
   background-color: #63971f;
+}
+.linkuser_main {
+  width: 270px;
+  height: 60px;
+}
+.link p {
+  width: 270px;
+  height: 60px;
+  top: 1403px;
+  left: 1005px;
+  gap: 0px;
+  opacity: 0px;
 }
